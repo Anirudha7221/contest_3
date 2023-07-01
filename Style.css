@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.my-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.location>h5{
+    font-weight: 900;
+    font-size: 15px;
+}
+.search-bar{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    width: 45vw;
+    padding: 10px;
+}
+.search-bar>input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+}
+#login{
+    background-color: white;
+}
+#cart{
+    background-color: #0C831F;
+    color: white;
+    font-weight: 700;
+    margin:5px;
+}
+.hero-1{
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    object-fit: fill;
+    margin: 10px;
+}
+.hero-2{
+    width: 83vw;
+    overflow-x: auto;
+    margin-inline: auto;
+}
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+.list>div{
+    display: inline-block;
+    margin: 10px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    width: 83vw;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+.items{
+    margin: 5px;
+}
+.product-cards{
+    width: 83vw;
+    margin-inline: auto;
+    padding: 10px;
+}
+.Card-name{
+    display: flex;
+    justify-content: space-between;
+}
+.Card-name>a{
+    text-decoration: none;
+    color: #0C831F;
+}
+.section-items{
+    overflow-x:auto;
+    width:100%;
+    display: flex;
+    white-space:nowrap;
+}
+.section-items>div{
+    margin: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    border:1px solid rgb(234, 214, 214);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.product-cards>h3{
+    font-weight: 600;
+}
+.weight{
+    color: #666666;
+    padding: 5px;
+}
+.Rate{
+    display: flex;
+    justify-content: space-between;
+}
+.add-btn{
+    background-color: white;
+    border-radius: 5px;
+    border-color: #0C831F;
+    padding: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+.my-info{
+    padding: 2%;
+    width: 83vw;
+    margin-inline: auto;
+    text-align: center;
+}
+@media only screen and (max-width: 740px){
+    .my-nav{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .location>h5{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .search-bar{
+        display: flex;
+        margin: 5px;
+    }
+    #login{
+        display: none;
+    }
+    #cart{
+        display: none;
+    }
+    .hero-1{
+        display: none;
+    }
+    .hero-2{
+        display: none;
+    }
+    .items{
+        margin: 0px;
+    }
+}
